@@ -93,6 +93,10 @@ public class telaLogin extends javax.swing.JFrame {
      if(usuario.getText().equals("admin")&& senha.getText().equals("1234")){
             
             JOptionPane.showConfirmDialog(null, " senha correta !!!");
+            telaPrincipal tela = new telaPrincipal();
+            tela.setVisible(true);
+            dispose();
+            
         }
         
         else {
