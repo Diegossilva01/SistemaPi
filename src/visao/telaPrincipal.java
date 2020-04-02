@@ -204,9 +204,9 @@ public class telaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_botaoCadastrarFuncionariosActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-  //      telaCadastroCliente tela = new telaCadastroCliente();
-    //    tela.setVisible(true);
-      //  dispose();
+   /* telaCadastroCliente tela = new telaCadastroCliente();
+        tela.setVisible(true);
+     *///   dispose();
         
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
