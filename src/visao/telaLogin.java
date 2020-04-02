@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 public class telaLogin extends javax.swing.JFrame {
 
-    
+  
    
     public telaLogin() {
         initComponents();

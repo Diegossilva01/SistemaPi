@@ -1,24 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package visao;
+import controle.ConexaoBD;
 
-//
-
-/**
- *
- * @author diego
- */
 public class telaPrincipal extends javax.swing.JFrame {
 
-   // conexaoBD connctar = new conexaoBD();
+   ConexaoBD conecta = new ConexaoBD();
     
     
     public telaPrincipal() {
         initComponents();
-        
+        conecta.conexao();
     }
 
     /**
@@ -184,7 +175,9 @@ public class telaPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-       System.exit(0);
+    conecta.desconecta();
+    System.exit(0);
+       
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
@@ -204,9 +197,9 @@ public class telaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_botaoCadastrarFuncionariosActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-   /* telaCadastroCliente tela = new telaCadastroCliente();
+    TelaCadastra tela = new TelaCadastra();
         tela.setVisible(true);
-     *///   dispose();
+       dispose();
         
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
