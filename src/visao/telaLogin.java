@@ -90,18 +90,18 @@ public class telaLogin extends javax.swing.JFrame {
     private void AcessarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AcessarActionPerformed
 
         
-     if(usuario.getText().equals("admin")&& senha.getText().equals("1234")){
+   //  if(usuario.getText().equals("admin")&& senha.getText().equals("1234")){
             
-            JOptionPane.showConfirmDialog(null, " senha correta !!!");
+          //  JOptionPane.showConfirmDialog(null, " senha correta !!!");
             telaPrincipal tela = new telaPrincipal();
             tela.setVisible(true);
             dispose();
             
-        }
+      //  }
         
-        else {
-            JOptionPane.showMessageDialog(null, "semha incorreta !!!");
-       }
+       // else {
+          //  JOptionPane.showMessageDialog(null, "semha incorreta !!!");
+       //}
         
         
         

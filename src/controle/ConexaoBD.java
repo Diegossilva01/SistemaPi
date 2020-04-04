@@ -17,7 +17,7 @@ public class ConexaoBD {
    public ResultSet rs ;
    
    private  String driver ="org.postgresql.Driver";
-   private String caminho ="jdbc:mysql://localhost/clientes" ;
+   private String caminho ="jdbc:mysql://localhost/cadastraCliente" ;
    private String usuario = "root";
    private String senha = "root";
    public Connection con ;
